@@ -4,13 +4,13 @@ This is a a PyTorch implementation of the 2021 ACMMM paper "Auto-MSFNet: Search 
 
 ## Introduction
 
-![images/1.png](Auto-MSFNet%20af50ce65118e4c2c97700bf21b09cdbb/Untitled.png)
+![images/1.png](images/1.png)
 
 Multi-scale features fusion plays a critical role in salient object detection. Most of existing methods have achieved remarkable performance by exploiting various multi-scale features fusion strategies. However, an elegant fusion framework requires expert knowledge and experience, heavily relying on laborious trial and error. In this paper, we propose a multi-scale features fusion framework based on Neural Architecture Search (NAS), named Auto-MSFNet. First, we design a novel search cell, named FusionCell to automatically decide multi-scale features aggregation. Rather than searching one repeatable cell stacked, we allow different FusionCells to flexibly integrate multi-level features. Simultaneously, considering features generated from CNNs are naturally spatial and channel-wise, we propose a new search space for efficiently focusing on the most relevant information. The search space mitigates incomplete object structures or over-predicted foreground regions caused by progressive fusion. Second, we propose a progressive polishing loss to further obtain exquisite boundaries by penalizing misalignment of salient object boundaries. Extensive experiments on five benchmark datasets demonstrate the effectiveness of the proposed method and achieve state-of-the-art performance on four evaluation metrics.
 
 ## The searched FusionCell structure
 
-![images/2.png](Auto-MSFNet%20af50ce65118e4c2c97700bf21b09cdbb/Untitled%201.png)
+![images/2.png](images/2.png)
 
 ## Prerequisites
 
@@ -33,11 +33,11 @@ Multi-scale features fusion plays a critical role in salient object detection. M
 - trained model: ResNet-50( [Google](https://drive.google.com/file/d/1TkJOvCNBuOjydzW-ceJBfkyCutFbYbrc/view?usp=sharing) | [Baidu 提取码:yfh8](https://pan.baidu.com/s/12S43JG4bce4cgN47D5rUnw) ).     Vgg-16([Google](https://drive.google.com/file/d/1bZkU1nid_sQ8_eydRfCZOD5OCj-Vwiqk/view?usp=sharing) | [Baidu 提取码:qhqs](https://pan.baidu.com/s/1pONp-yFTdLkb0KrbjvWIcQ) )
 - Our quantitative comparisons
 
-![images/3.png](Auto-MSFNet%20af50ce65118e4c2c97700bf21b09cdbb/Untitled%202.png)
+![images/3.png](images/3.png)
 
 - Our qualitative comparisons
 
-![images/4.png](Auto-MSFNet%20af50ce65118e4c2c97700bf21b09cdbb/Untitled%203.png)
+![images/4.png](images/4.png)
 
 ### 3.Testing and Evaluated
 
