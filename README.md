@@ -51,4 +51,13 @@ Second, you need change test.py some paths(*e.g.*, dataset path)  than
 run test.py
 ```
 
-4.Any question please contract with tingwei@mail.dlut.edu.cn
+### 4.If you think this work is helpful, please cite
+```jsx
+ @InProceedings{Miao_2021_ACM_MM, 
+ author = {Miao {Zhang} and Tingwei {Liu} and Yongri {Piao} and ShunYu {Yao} and Huchuan {Lu}},   
+          title = {Auto-MSFNet: Search Multi-scale Fusion Network for Salient Object Detection},     
+          booktitle = "ACM Multimedia Conference 2021",     
+          year = {2021}     
+          } 
+```
+### 5.Any questions please contact with tingwei@mail.dlut.edu.cn
