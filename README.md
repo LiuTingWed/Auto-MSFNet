@@ -1,6 +1,6 @@
 # Auto-MSFNet
 
-This is a a PyTorch implementation of the 2021 ACMMM paper "Auto-MSFNet: Search Multi-scale Fusion Network for Salient Object Detection", this paper can be download by [this link(提取码:a28y)](https://pan.baidu.com/s/14mLCSHXtnuXkjCmuu_9g8A).
+This is a PyTorch implementation of the 2021 ACMMM paper "Auto-MSFNet: Search Multi-scale Fusion Network for Salient Object Detection", this paper can be download by [this link(提取码:a28y)](https://pan.baidu.com/s/14mLCSHXtnuXkjCmuu_9g8A).
 
 ## Introduction
 
